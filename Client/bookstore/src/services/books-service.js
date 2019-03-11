@@ -2,7 +2,7 @@ import { get } from '../data/crud.js'
 
 class BooksService {
     constructor() {
-        this.baseUrl = 'http://localhost:500/book';
+        this.baseUrl = 'http://localhost:5000/book';
         this.allBooksUrl = `${this.baseUrl}/all`;
     }
 
